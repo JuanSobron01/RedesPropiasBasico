@@ -1,0 +1,109 @@
+#principal{
+    text-align: center;
+    font-family:'Grechen Fuemen', cursive;
+    color: aliceblue;
+    
+}
+body{
+    color: #34495E;
+    background-color:#283747;}
+
+.redes a:link, a:visited{
+        color: black;
+        display: inline-block;
+        text-decoration: 25px;
+    }
+    
+      
+
+
+.instagram{ 
+    height: 10px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.instagram h2 {
+	font-family: 'Carattere', cursive;}
+
+.instagram a:hover,a:active{
+        color: #910F2F;
+}
+
+
+.spotify{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+
+.spotify h2{
+    padding-top: 10px;
+}
+
+.spotify a:hover, a:active{
+    color: #68FA04;
+}
+
+
+
+.vsco{
+    text-align: center;
+    padding-top: 0px;
+    
+}
+
+.vsco h2{
+    padding-top: 10px;
+}
+
+.vsco a:hover, a:active{
+    color: white;
+}
+
+.whatsapp{
+    text-align: center;
+
+}
+.whatsapp a:hover, a:active{
+    color: green;
+}
+
+.linkedin{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.linkedin h2{
+    font-family: 'Heebo', sans-serif;
+}
+
+.linkedin a:hover, a:active{
+    color: #002EFF;
+}
+
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+    /* iPhone only */
+    /* Styles */
+    .off {
+      display: none !important;
+    }
+    .on {
+      display: block !important;
+    }
+    .redes {
+      width: 100%;
+    }
+    .redes img{
+        width: 100%;
+    }
+    
+  #home{
+      padding-top: 65px;
+  }
+  
+  h1{
+      font-size: 30px;
+  }}

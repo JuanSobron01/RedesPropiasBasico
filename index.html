@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <!--Letras titulo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
+    <title>Juan Cruz Sobron</title>
+</head>
+<body>
+    <h1 id="principal">Juan Cruz Sobron</h1>
+
+    <div class="redes">
+       <div class="instagram">
+        
+        <a href="https://instagram.com/juansobron/" target="_blank"> <h2> Instagram</h2>
+        <img  style="width:100px;height:100px" src="imagenes/instagram.png" alt="Instagram">
+        
+    </a>
+            
+    </div>
+
+        <div class="spotify">
+            <br>
+            <a href="https://open.spotify.com/user/11141059608?si=571cc61af5f64e09" target="_blank">
+                <h2>Spotify</h2>
+            <img style="width:100px;height:100px" src="imagenes/spotify.png" alt="Spotify">
+            </a>
+        </div>
+
+        <div class="vsco">
+            <a href="https://vsco.co/juansobron/gallery">
+            <BR><h2>VSCO</h2>
+            <img  style="width: 200px;height:200px" src="imagenes/vsco.png">
+
+            </a>
+        </div>
+
+        <div class="whatsapp">
+            <a href="https://wa.me/542477502610/?text=Hola%20Juan%20Cruz,%20como%20andas?%20soy:" target="_blank">
+            <h2>Whatsapp</h2>
+            <img  style="width: 250px;height:150px" src="imagenes/Wpp.png" alt="Whatsapp">
+            </a>
+        </div>
+
+
+
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/juan-cruz-sobron-a080031b9/" target="_blank">
+            <h2>Linkedin</h2>
+            <img style="width: 100px;height:100px" src="imagenes/linkedin.png" alt="Linkedin">
+            </a>
+
+        
+
+
+        </div>
+    </div>
+
+
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script>
+        // A $( document ).ready() block.
+    $(document).ready(function() {    
+    $('.top a').click(function(e){
+            e.preventDefault();
+            var offset = $($(this).attr('href')).offset().top;
+            $('html, body').animate({scrollTop:offset}, 600);
+            return false;
+        });
+
+    });
+	
+</script>
+
+</body>
+</html>
